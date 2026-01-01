@@ -1,0 +1,46 @@
+# Python virtual environments
+venv/
+venv_test/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+
+# Downloaded models
+*.task
+*.tflite
+
+# Extracted files
+extracted/
+quantized/
+int8_output/
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Test outputs
+test_output/
